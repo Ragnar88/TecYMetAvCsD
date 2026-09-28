@@ -1,0 +1,17 @@
+# Credenciales
+secret_api_key.txt
+.env
+.env.*
+
+# Entorno de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos generados por el notebook
+data/eia_wti_brent_daily.csv
+
