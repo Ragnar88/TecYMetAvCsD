@@ -17,6 +17,8 @@ Marzo de 2026 queda fuera de los períodos definidos. La fecha final efectivamen
 
 Ambos notebooks siguen la misma estructura: limpieza y validación, cobertura temporal, medidas de tendencia central y dispersión, evolución de precios, spread Brent−WTI, retornos, volatilidad, base 100, diagramas de caja, movimientos extremos y autocorrelación. Cada gráfico incluye una explicación. El trabajo actual es exploratorio; no incluye un modelo predictivo.
 
+La regresión lineal de precio contra días calendario se presenta en `notebooks/regresion_tiempo_precios_wti_brent.ipynb`. Usa el CSV local de `data/`, ajusta una recta para cada crudo y período, e informa la ecuación, R y R² junto con gráficos e interpretación. No requiere la clave de EIA; al ejecutarlo nuevamente usa el CSV de precios diarios más recientemente modificado.
+
 ## Instalación en Windows
 
 Después de clonar o descargar el repositorio, abrir PowerShell en la carpeta que contiene este README y `requirements.txt`.
